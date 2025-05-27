@@ -1,1 +1,63 @@
 /* STYLE FOR YOUR INDEX.HTML */
+
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+  
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        padding: 10px 20px;
+        color: white;
+      }
+  
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+
+      .flex-container {
+        /* Make this into a flexbox using display: flex */
+        /* Use flexbox properties to stack your tiles vertically and center them */
+        display: flex;
+        width: 100vw;
+        height: 50vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .flex-tile {
+        /* Make this into a flexbox using display: flex */
+        /* Use flexbox properties to stack elements in your tiles vertically and center them */
+    
+        /* setting the width for each tile */
+        width: 60%;
+    
+        /* spacing tiles */
+        margin: 5%;
+        padding: 20px;
+    
+        /* background color for tile, feel free to change */
+        background-color: rgb(169, 169, 169);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: soace space-evenly;
+        text-align: center;
+        align-items: center;
+        transition: 0.5s;
+        text-decoration: none;
+        border-radius: 10px;
+    
+    }
+  
+  
+  
+      
