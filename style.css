@@ -14,7 +14,13 @@ background: linear-gradient(90deg,rgba(170, 64, 91, 1) 0%, rgba(38, 11, 44, 1) 1
         align-items: center;
         background-color: #2b102d;
         padding: 10px 20px;
-        color: white;
+        color: rgb(158, 115, 164);
+      }
+
+      a {
+        color: rgb(225, 161, 66);
+        text-decoration: none;
+        justify-content: space-between;
       }
   
       .logo {
@@ -23,19 +29,14 @@ background: linear-gradient(90deg,rgba(170, 64, 91, 1) 0%, rgba(38, 11, 44, 1) 1
         font-weight: bold;
       }
 
-      .navLinks{
-        color: rgb(225, 161, 66); 
-      }
 
 
-
-    }
-    .flex-container{
+    flex-container{
         display: flex;
         width: 100vw;
         height: 50vh;
         background-color: bisque;
-        flex-direction: row;
+        flex-direction: wrap;
         /* shifts items on main axis */
         justify-content: space-around;
          /* shifts items on cross axis */
@@ -65,8 +66,7 @@ background: linear-gradient(90deg,rgba(170, 64, 91, 1) 0%, rgba(38, 11, 44, 1) 1
 
     
     
-    }
-  
+
   
   
       

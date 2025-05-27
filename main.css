@@ -1,1 +1,26 @@
 /* STYLE FOR YOU MAIN.HTML */
+body{
+    background: #FEA775;
+background: linear-gradient(90deg,rgba(254, 167, 117, 1) 0%, rgba(170, 64, 91, 1) 100%, rgba(119, 69, 168, 1) 100%);
+}
+
+.flex-container {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(158, 158, 158);
+    border-radius: 2px;
+    text-align: center;
+  }
+  
