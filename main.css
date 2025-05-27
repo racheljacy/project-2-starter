@@ -1,7 +1,7 @@
 /* STYLE FOR YOU MAIN.HTML */
 body{
     background: #FEA775;
-background: linear-gradient(90deg,rgba(254, 167, 117, 1) 0%, rgba(170, 64, 91, 1) 100%, rgba(119, 69, 168, 1) 100%);
+    background: linear-gradient(90deg,rgba(254, 167, 117, 1) 0%, rgba(170, 64, 91, 1) 100%, rgba(119, 69, 168, 1) 100%);
 }
 
 .flex-container {
