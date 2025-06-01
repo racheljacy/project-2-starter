@@ -1,5 +1,26 @@
 /* STYLE FOR YOUR INDEX.HTML */
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b102d;
+  padding: 10px 20px;
+  color: rgb(158, 115, 164);
+}
+
+a {
+  color: rgb(225, 161, 66);
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.logo {
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
 
       body {
         background: #AA405B;
@@ -9,27 +30,7 @@ background: linear-gradient(90deg,rgba(170, 64, 91, 1) 0%, rgba(38, 11, 44, 1) 1
         align-items: center;
       }
   
-      header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #2b102d;
-        padding: 10px 20px;
-        color: rgb(158, 115, 164);
-      }
-
-      a {
-        color: rgb(225, 161, 66);
-        text-decoration: none;
-        justify-content: space-between;
-      }
   
-      .logo {
-
-        font-size: 24px;
-        font-weight: bold;
-      }
-
 
 
     .flex-container{

@@ -1,4 +1,14 @@
 /* STYLE FOR YOU MAIN.HTML */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b102d;
+    padding: 10px 20px;
+    color: rgb(158, 115, 164);
+    text-align: center;
+  }
 body{
     background: #FEA775;
     background: linear-gradient(90deg,rgba(254, 167, 117, 1) 0%, rgba(170, 64, 91, 1) 100%, rgba(119, 69, 168, 1) 100%);
