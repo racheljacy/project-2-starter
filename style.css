@@ -23,6 +23,18 @@ a {
   font-family: klaristha;
 }
 
+.pulse {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.75);
+  }
+}
 
       body {
         background: #AA405B;

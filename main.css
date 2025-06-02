@@ -37,6 +37,28 @@ a {
     }
   }
 
+
+  .flex-tile {
+    animation:border-color 2s infinite;
+    border: 2px solid rgb(215, 89, 110);
+
+  }
+
+  @keyframes border-color {
+    0% {
+      background-color: rgb(106, 61, 105);
+    }
+    20% {
+      background-color: rgb(200, 76, 118);
+    }
+    50% {
+      background-color: rgb(225, 154, 88);
+    }
+    100% {
+      background-color:  rgb(125, 65, 124);
+    }
+  }
+
 .flex-container {
     display: flex;
     width: 100vw;
