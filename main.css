@@ -20,6 +20,23 @@ a {
     justify-content: space-between;
   }
 
+  img{
+    width: 80%;
+  }
+
+  .pulse {
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.75);
+    }
+  }
+
 .flex-container {
     display: flex;
     width: 100vw;
@@ -30,15 +47,6 @@ a {
     flex-wrap: wrap;
   }
   
-  .item {
-    width: 300px;
-    height: 500px;
-    margin: 10px;
-    padding: 10px;
-    background-color: rgb(158, 158, 158);
-    border-radius: 2px;
-    text-align: center;
-  }
   
   .flex-tile{
     width: 60%;
@@ -48,7 +56,7 @@ a {
     padding: 20px;
 
     /* background color for tile, feel free to change */
-    background-color: rgb(255, 251, 251);
+    background-color: rgb(170, 118, 159);
 
     width: 60%;
 
