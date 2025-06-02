@@ -15,10 +15,6 @@ a {
   justify-content: space-between;
 }
 
-@font-face {
-  font-family: klaristha;
-}
-
 
 .logo {
 
@@ -30,7 +26,7 @@ a {
 
       body {
         background: #AA405B;
-background: linear-gradient(90deg,rgba(170, 64, 91, 1) 0%, rgba(38, 11, 44, 1) 100%, rgba(119, 69, 168, 1) 100%);
+        background: linear-gradient(90deg,rgba(170, 64, 91, 1) 0%, rgba(38, 11, 44, 1) 100%, rgba(119, 69, 168, 1) 100%);
         margin: 0;
         font-family: wondershine;
         font-weight: bold;
