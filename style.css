@@ -15,10 +15,16 @@ a {
   justify-content: space-between;
 }
 
+@font-face {
+  font-family: klaristha;
+}
+
+
 .logo {
 
   font-size: 24px;
   font-weight: bold;
+  font-family: klaristha;
 }
 
 
@@ -26,10 +32,38 @@ a {
         background: #AA405B;
 background: linear-gradient(90deg,rgba(170, 64, 91, 1) 0%, rgba(38, 11, 44, 1) 100%, rgba(119, 69, 168, 1) 100%);
         margin: 0;
-        font-family: Arial, sans-serif;
+        font-family: wondershine;
+        font-weight: bold;
         align-items: center;
+        justify-content: space-around;
       }
   
+      .btn1{
+        display: block;
+        padding: 15px 30px; 
+        margin: 5% auto;
+        width: 300px;
+        border: 3px dotted rgb(221, 151, 81);
+        border-radius: 10px;
+        color: white;
+        background: rgb(51, 24, 64);
+        font-family: wondershine;
+        font-size: large;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+.btn1:hover{
+      background: rgb(130, 40, 85); 
+      color: rgb(255, 255, 255);
+      border: 3px solid rgb(221, 151, 81);
+      font-size: 24px;
+  }
+  
+.btn1:active{
+      transform: rotate(20deg);
+  }
   
 
 
@@ -51,7 +85,7 @@ background: linear-gradient(90deg,rgba(170, 64, 91, 1) 0%, rgba(38, 11, 44, 1) 1
     padding: 20px;
 
     /* background color for tile, feel free to change */
-    background-color: rgb(171, 168, 168);
+    background-color: rgb(255, 251, 251);
 
     width: 60%;
 
