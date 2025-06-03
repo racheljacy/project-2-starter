@@ -98,11 +98,20 @@ a {
     font-size: 24px;
 }
 
+.btn2:active{
+  transform: rotate(20deg);
+}
+
+
 .btn3:hover{
   background: rgb(130, 40, 85); 
   color: rgb(255, 255, 255);
   border: 3px solid rgb(221, 151, 81);
   font-size: 24px;
+}
+
+.btn3:active{
+  transform: rotate(20deg);
 }
 
 

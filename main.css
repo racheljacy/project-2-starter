@@ -34,7 +34,7 @@ header {
     }
 
     .btn1:hover{
-        background: rgb(130, 40, 85); 
+        background: rgb(252, 191, 130); 
         color: rgb(255, 255, 255);
         border: 3px solid rgb(221, 151, 81);
         font-size: 24px;
@@ -45,7 +45,7 @@ header {
     }
   
     .btn2:hover{
-        background: rgb(130, 40, 85); 
+        background: rgb(198, 83, 49); 
         color: rgb(255, 255, 255);
         border: 3px solid rgb(221, 151, 81);
         font-size: 24px;
@@ -57,7 +57,7 @@ header {
 
 
     .btn3:hover{
-        background: rgb(130, 40, 85); 
+        background: rgb(220, 84, 106); 
         color: rgb(255, 255, 255);
         border: 3px solid rgb(221, 151, 81);
         font-size: 24px;
@@ -80,6 +80,11 @@ header {
 body{
     background: linear-gradient(90deg,rgba(254, 167, 117, 1) 0%, rgba(170, 64, 91, 1) 100%, rgba(119, 69, 168, 1) 100%);
 }
+
+
+  
+
+  
 
 .title-1{
     font-size: 50px;
@@ -144,7 +149,7 @@ a {
 .flex-container {
     display: flex;
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
