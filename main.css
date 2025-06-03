@@ -9,6 +9,12 @@ header {
     color: rgb(158, 115, 164);
   }
 
+ .logo {
+
+    font-size: 24px;
+    font-weight: bold;
+    font-family: klaristha;
+  }
 body{
     background: #FEA775;
     background: linear-gradient(90deg,rgba(254, 167, 117, 1) 0%, rgba(170, 64, 91, 1) 100%, rgba(119, 69, 168, 1) 100%);
@@ -41,6 +47,7 @@ a {
   .flex-tile {
     animation:border-color 2s infinite;
     border: 2px solid rgb(215, 89, 110);
+    color: beige;
 
   }
 
