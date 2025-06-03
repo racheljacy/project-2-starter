@@ -148,6 +148,17 @@ a {
   .img-2{
     mix-blend-mode: screen;
   }
+
+  .mission-title{
+    size: 60px;
+    font-weight: bold;
+  }
+  .mission-statement{
+    margin: 10px;
+    color: beige;
+    text-align: center;
+    padding: 40px;
+  }
   
 
     
