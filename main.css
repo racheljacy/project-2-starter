@@ -110,6 +110,10 @@ a {
     width: 80%;
   }
 
+  iframe{
+    width: 100%;
+  }
+
   .pulse {
     animation: pulse 5s infinite;
   }
