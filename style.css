@@ -15,7 +15,21 @@ a {
   justify-content: space-between;
 }
 
+.btn2{
+  font-family: klaristha-bold;
+  font-size: 25px;
+  background-color:rgb(225, 161, 66) ;
+  color: #2b102d ;
+  border-radius: 3px;
+ }
 
+  .btn3{
+  font-family: klaristha-bold;
+  font-size: 25px;
+  background-color:rgb(225, 161, 66) ;
+  color: #2b102d ;
+  border-radius: 3px;
+  }
 
 
 .logo {
@@ -77,6 +91,19 @@ a {
       transform: rotate(20deg);
   }
   
+  .btn2:hover{
+    background: rgb(130, 40, 85); 
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(221, 151, 81);
+    font-size: 24px;
+}
+
+.btn3:hover{
+  background: rgb(130, 40, 85); 
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(221, 151, 81);
+  font-size: 24px;
+}
 
 
   .flex-container{

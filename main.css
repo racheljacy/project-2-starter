@@ -9,6 +9,68 @@ header {
     color: rgb(158, 115, 164);
   }
 
+   .btn1{
+    font-family: klaristha-bold;
+    font-size: 25px;
+    background-color:rgb(225, 161, 66) ;
+    color: #2b102d ;
+    border-radius: 3px;
+   }
+  
+    .btn2{
+    font-family: klaristha-bold;
+    font-size: 25px;
+    background-color:rgb(225, 161, 66) ;
+    color: #2b102d ;
+    border-radius: 3px;
+    }
+  
+    .btn3{
+    font-family: klaristha-bold;
+    font-size: 25px;
+    background-color:rgb(225, 161, 66) ;
+    color: #2b102d ;
+    border-radius: 3px;
+    }
+
+    .btn1:hover{
+        background: rgb(130, 40, 85); 
+        color: rgb(255, 255, 255);
+        border: 3px solid rgb(221, 151, 81);
+        font-size: 24px;
+    }
+    
+  .btn1:active{
+        transform: rotate(20deg);
+    }
+  
+    .btn2:hover{
+        background: rgb(130, 40, 85); 
+        color: rgb(255, 255, 255);
+        border: 3px solid rgb(221, 151, 81);
+        font-size: 24px;
+    }
+    
+  .btn2:active{
+        transform: rotate(20deg);
+    }
+
+
+    .btn3:hover{
+        background: rgb(130, 40, 85); 
+        color: rgb(255, 255, 255);
+        border: 3px solid rgb(221, 151, 81);
+        font-size: 24px;
+    }
+    
+  .btn3:active{
+        transform: rotate(20deg);
+    }
+  
+  .stickers:hover{
+    transform: scale3d(50%);
+  }
+
  .logo {
 
     font-size: 24px;
